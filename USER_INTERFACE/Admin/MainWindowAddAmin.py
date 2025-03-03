@@ -8,7 +8,6 @@
 
 from PyQt6 import QtCore, QtGui, QtWidgets
 
-
 class Ui_MainWindowAddAdmin(object):
     def setupUi(self, MainWindowAddAdmin):
         MainWindowAddAdmin.setObjectName("MainWindowAddAdmin")
