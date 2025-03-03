@@ -1,6 +1,4 @@
-from PyQt6.QtWidgets import QMainWindow
-
-from USER_INTERFACE.Product.MainWindowProduct import Ui_MainWindowProduct
+from USER_INTERFACE.MainWindowProduct import Ui_MainWindowProduct
 
 
 class MainWindowProductExt(QMainWindow, Ui_MainWindowProduct):
@@ -9,6 +7,7 @@ class MainWindowProductExt(QMainWindow, Ui_MainWindowProduct):
         self.setupUi(self)
         self.parent_window = parent  # Lưu tham chiếu đến cửa sổ Admin
         self.setupSignalAndSlot()
+
     def setupSignalAndSlot(self):
         pass
     def showWindow(self):
