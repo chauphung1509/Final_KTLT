@@ -1,4 +1,4 @@
-# Form implementation generated from reading ui file 'C:\Users\Nicolee\Coding\Final_KTLT\USER_INTERFACE\MainWindowAddAmin.ui'
+# Form implementation generated from reading ui file 'D:\code hk2\Final_KTLT\USER_INTERFACE\Admin\MainWindowAddAmin.ui'
 #
 # Created by: PyQt6 UI code generator 6.7.1
 #
@@ -7,6 +7,7 @@
 
 
 from PyQt6 import QtCore, QtGui, QtWidgets
+
 
 class Ui_MainWindowAddAdmin(object):
     def setupUi(self, MainWindowAddAdmin):
@@ -147,7 +148,7 @@ class Ui_MainWindowAddAdmin(object):
 "\n"
 "")
         icon = QtGui.QIcon()
-        icon.addPixmap(QtGui.QPixmap("C:\\Users\\Nicolee\\Coding\\Final_KTLT\\USER_INTERFACE\\../RESOURCE/1.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
+        icon.addPixmap(QtGui.QPixmap("D:\\code hk2\\Final_KTLT\\USER_INTERFACE\\Admin\\../../RESOURCE/ICON/1.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
         self.pushButtonSave.setIcon(icon)
         self.pushButtonSave.setIconSize(QtCore.QSize(30, 30))
         self.pushButtonSave.setObjectName("pushButtonSave")
@@ -179,7 +180,7 @@ class Ui_MainWindowAddAdmin(object):
 "}\n"
 "")
         icon1 = QtGui.QIcon()
-        icon1.addPixmap(QtGui.QPixmap("C:\\Users\\Nicolee\\Coding\\Final_KTLT\\USER_INTERFACE\\../RESOURCE/cancel.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
+        icon1.addPixmap(QtGui.QPixmap("D:\\code hk2\\Final_KTLT\\USER_INTERFACE\\Admin\\../../RESOURCE/ICON/cancel.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
         self.pushButtonCancel.setIcon(icon1)
         self.pushButtonCancel.setIconSize(QtCore.QSize(30, 30))
         self.pushButtonCancel.setObjectName("pushButtonCancel")
