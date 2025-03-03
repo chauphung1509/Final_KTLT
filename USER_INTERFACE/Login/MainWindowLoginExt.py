@@ -38,6 +38,7 @@ class MainWindowLoginExt(Ui_Login):
         self.myui=MainWindowSignupExt()
         self.myui.setupUi(self.mainwindow)
         self.myui.showWindow()
+        #khi bấm create account thì nó chuyển qua trang create account thành công rùi
 
 
 

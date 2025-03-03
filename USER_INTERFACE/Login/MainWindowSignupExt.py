@@ -10,3 +10,4 @@ class MainWindowSignupExt(Ui_Signup):
         self.MainWindow.show()
     def setupSignalAndSlot(self):
         pass
+    #đang làm chưa xong nha
