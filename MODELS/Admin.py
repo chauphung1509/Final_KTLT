@@ -1,13 +1,13 @@
-class WarehouseStaff:
-    def __init__(self, staff_id, name, position, contact_number, email):
+class Staff:
+    def __init__(self, staff_id, name, position, phone, email):
         self.staff_id = staff_id  # Mã nhân viên
         self.name = name  # Tên nhân viên
         self.position = position  # Chức vụ
-        self.contact_number = contact_number  # Số điện thoại liên hệ
+        self.phone = phone  # Số điện thoại liên hệ
         self.email = email  # Email nhân viên
 
     def __str__(self):
-        return f"{self.staff_id}\t{self.name}\t{self.position}\t{self.contact_number}\t{self.email}"
+        return f"{self.staff_id}\t{self.name}\t{self.position}\t{self.phone}\t{self.email}"
 
 
 class LoginManager:

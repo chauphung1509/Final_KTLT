@@ -9,10 +9,9 @@ class Album:
         "Other": "OT"
     }
 
-    def __init__(self, title, artist, genre, category, year, price, stock):
+    def __init__(self, title, artist, category, year, price, stock):
         self.title = title  # Tiêu đề album
         self.artist = artist  # Tên nghệ sĩ
-        self.genre = genre  # Thể loại nhạc (Rock, Pop, ...) - listwidget
         self.category = category  # Thể loại âm nhạc (Kpop, US/UK, ...) - listwidget
         self.year = year  # Năm phát hành - year
         self.price = price  # Giá album
@@ -37,7 +36,7 @@ class Album:
         return f"{year_short}{music_code}{counter}"
 
     def __str__(self):
-        return f"{self.id}\t{self.title}\t{self.artist}\t{self.genre}\t{self.category}\t{self.year}\t${self.price}\tStock: {self.stock}"
+        return f"{self.id}\t{self.title}\t{self.artist}\t{self.category}\t{self.year}\t${self.price}\tStock: {self.stock}"
 
 
 class AlbumManager:
