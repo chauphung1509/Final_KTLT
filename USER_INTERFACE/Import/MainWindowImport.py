@@ -184,18 +184,18 @@ class Ui_MainWindowImport(object):
 "background-color: rgb(255, 255, 255);\n"
 "font: 25 10pt \"Montserrat Light\";")
         self.groupBox_2.setObjectName("groupBox_2")
-        self.lineEdit = QtWidgets.QLineEdit(parent=self.groupBox_2)
-        self.lineEdit.setGeometry(QtCore.QRect(156, 36, 361, 61))
-        self.lineEdit.setStyleSheet("background-color: rgb(242, 248, 255);\n"
+        self.lineEditSearch = QtWidgets.QLineEdit(parent=self.groupBox_2)
+        self.lineEditSearch.setGeometry(QtCore.QRect(156, 36, 361, 61))
+        self.lineEditSearch.setStyleSheet("background-color: rgb(242, 248, 255);\n"
 "color: rgb(14, 23, 67);\n"
 "font: 57 12pt \"Montserrat Medium\";\n"
 "padding: 10px;")
-        self.lineEdit.setText("")
-        self.lineEdit.setObjectName("lineEdit")
-        self.pushButton = QtWidgets.QPushButton(parent=self.groupBox_2)
-        self.pushButton.setGeometry(QtCore.QRect(528, 36, 61, 61))
-        self.pushButton.setMaximumSize(QtCore.QSize(100, 100))
-        self.pushButton.setStyleSheet("QPushButton {\n"
+        self.lineEditSearch.setText("")
+        self.lineEditSearch.setObjectName("lineEditSearch")
+        self.pushButtonSearch = QtWidgets.QPushButton(parent=self.groupBox_2)
+        self.pushButtonSearch.setGeometry(QtCore.QRect(528, 36, 61, 61))
+        self.pushButtonSearch.setMaximumSize(QtCore.QSize(100, 100))
+        self.pushButtonSearch.setStyleSheet("QPushButton {\n"
 "    background-color: #35B6E8; /* Màu nền mặc định */\n"
 "    border-radius: 10px; \n"
 "    padding: 5px;\n"
@@ -215,46 +215,46 @@ class Ui_MainWindowImport(object):
 "    border: 5px solid #8EDAF8; /* Viền khi nút được focus */ \n"
 "}\n"
 "")
-        self.pushButton.setText("")
+        self.pushButtonSearch.setText("")
         icon8 = QtGui.QIcon()
         icon8.addPixmap(QtGui.QPixmap("C:\\Users\\Nicolee\\Coding\\Final_KTLT\\USER_INTERFACE\\Import\\../../RESOURCE/ICON/search.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
-        self.pushButton.setIcon(icon8)
-        self.pushButton.setIconSize(QtCore.QSize(25, 25))
-        self.pushButton.setObjectName("pushButton")
-        self.comboBox = QtWidgets.QComboBox(parent=self.groupBox_2)
-        self.comboBox.setGeometry(QtCore.QRect(12, 36, 133, 61))
-        self.comboBox.setStyleSheet("background-color: rgb(242, 248, 255);\n"
+        self.pushButtonSearch.setIcon(icon8)
+        self.pushButtonSearch.setIconSize(QtCore.QSize(25, 25))
+        self.pushButtonSearch.setObjectName("pushButtonSearch")
+        self.comboBoxSearch = QtWidgets.QComboBox(parent=self.groupBox_2)
+        self.comboBoxSearch.setGeometry(QtCore.QRect(12, 36, 133, 61))
+        self.comboBoxSearch.setStyleSheet("background-color: rgb(242, 248, 255);\n"
 "color: rgb(14, 23, 67);\n"
 "font: 57 12pt \"Montserrat Medium\";\n"
 "padding: 10px;")
-        self.comboBox.setEditable(False)
-        self.comboBox.setSizeAdjustPolicy(QtWidgets.QComboBox.SizeAdjustPolicy.AdjustToContentsOnFirstShow)
-        self.comboBox.setObjectName("comboBox")
-        self.comboBox.addItem("")
-        self.comboBox.addItem("")
-        self.comboBox.addItem("")
-        self.comboBox.addItem("")
-        self.comboBox.addItem("")
-        self.comboBox.addItem("")
-        self.tableWidget = QtWidgets.QTableWidget(parent=self.centralwidget)
-        self.tableWidget.setGeometry(QtCore.QRect(264, 143, 601, 553))
-        self.tableWidget.setToolTip("")
-        self.tableWidget.setStyleSheet("padding: 5px;\n"
+        self.comboBoxSearch.setEditable(False)
+        self.comboBoxSearch.setSizeAdjustPolicy(QtWidgets.QComboBox.SizeAdjustPolicy.AdjustToContentsOnFirstShow)
+        self.comboBoxSearch.setObjectName("comboBoxSearch")
+        self.comboBoxSearch.addItem("")
+        self.comboBoxSearch.addItem("")
+        self.comboBoxSearch.addItem("")
+        self.comboBoxSearch.addItem("")
+        self.comboBoxSearch.addItem("")
+        self.comboBoxSearch.addItem("")
+        self.tableWidgetDefault = QtWidgets.QTableWidget(parent=self.centralwidget)
+        self.tableWidgetDefault.setGeometry(QtCore.QRect(264, 143, 601, 553))
+        self.tableWidgetDefault.setToolTip("")
+        self.tableWidgetDefault.setStyleSheet("padding: 5px;\n"
 "border-radius: 10px;\n"
 "color: rgb(14, 23, 67);\n"
 "background-color: rgb(255, 255, 255);\n"
 "font: 57 10pt \"Montserrat Medium\";")
-        self.tableWidget.setObjectName("tableWidget")
-        self.tableWidget.setColumnCount(4)
-        self.tableWidget.setRowCount(0)
+        self.tableWidgetDefault.setObjectName("tableWidgetDefault")
+        self.tableWidgetDefault.setColumnCount(4)
+        self.tableWidgetDefault.setRowCount(0)
         item = QtWidgets.QTableWidgetItem()
-        self.tableWidget.setHorizontalHeaderItem(0, item)
+        self.tableWidgetDefault.setHorizontalHeaderItem(0, item)
         item = QtWidgets.QTableWidgetItem()
-        self.tableWidget.setHorizontalHeaderItem(1, item)
+        self.tableWidgetDefault.setHorizontalHeaderItem(1, item)
         item = QtWidgets.QTableWidgetItem()
-        self.tableWidget.setHorizontalHeaderItem(2, item)
+        self.tableWidgetDefault.setHorizontalHeaderItem(2, item)
         item = QtWidgets.QTableWidgetItem()
-        self.tableWidget.setHorizontalHeaderItem(3, item)
+        self.tableWidgetDefault.setHorizontalHeaderItem(3, item)
         self.label_4 = QtWidgets.QLabel(parent=self.centralwidget)
         self.label_4.setGeometry(QtCore.QRect(36, 36, 205, 61))
         self.label_4.setStyleSheet("color: rgb(53, 182, 232);\n"
@@ -268,9 +268,9 @@ class Ui_MainWindowImport(object):
 "background-color: rgb(5, 129, 249);")
         self.label_5.setAlignment(QtCore.Qt.AlignmentFlag.AlignCenter)
         self.label_5.setObjectName("label_5")
-        self.pushButton_2 = QtWidgets.QPushButton(parent=self.centralwidget)
-        self.pushButton_2.setGeometry(QtCore.QRect(60, 720, 157, 61))
-        self.pushButton_2.setStyleSheet("QPushButton {\n"
+        self.pushButtonExit = QtWidgets.QPushButton(parent=self.centralwidget)
+        self.pushButtonExit.setGeometry(QtCore.QRect(60, 720, 157, 61))
+        self.pushButtonExit.setStyleSheet("QPushButton {\n"
 "    background-color: #FFFFFF; /* Màu nền mặc định */\n"
 "    color: #D23435;\n"
 "    font: 8120 17pt \"Montserrat Bold\";\n"
@@ -293,9 +293,9 @@ class Ui_MainWindowImport(object):
 "")
         icon9 = QtGui.QIcon()
         icon9.addPixmap(QtGui.QPixmap("C:\\Users\\Nicolee\\Coding\\Final_KTLT\\USER_INTERFACE\\Import\\../../RESOURCE/ICON/turnoff.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
-        self.pushButton_2.setIcon(icon9)
-        self.pushButton_2.setIconSize(QtCore.QSize(35, 35))
-        self.pushButton_2.setObjectName("pushButton_2")
+        self.pushButtonExit.setIcon(icon9)
+        self.pushButtonExit.setIconSize(QtCore.QSize(35, 35))
+        self.pushButtonExit.setObjectName("pushButtonExit")
         self.label_3 = QtWidgets.QLabel(parent=self.centralwidget)
         self.label_3.setGeometry(QtCore.QRect(264, 708, 601, 109))
         self.label_3.setStyleSheet("border-radius: 10px;\n"
@@ -309,18 +309,18 @@ class Ui_MainWindowImport(object):
         self.horizontalLayout.setContentsMargins(0, 0, 0, 0)
         self.horizontalLayout.setSpacing(15)
         self.horizontalLayout.setObjectName("horizontalLayout")
-        self.lineEdit_2 = QtWidgets.QLineEdit(parent=self.horizontalLayoutWidget)
-        self.lineEdit_2.setMaximumSize(QtCore.QSize(250, 50))
-        self.lineEdit_2.setStyleSheet("background-color: rgb(242, 248, 255);\n"
+        self.lineEditQuantity = QtWidgets.QLineEdit(parent=self.horizontalLayoutWidget)
+        self.lineEditQuantity.setMaximumSize(QtCore.QSize(250, 50))
+        self.lineEditQuantity.setStyleSheet("background-color: rgb(242, 248, 255);\n"
 "color: rgb(14, 23, 67);\n"
 "font: 57 12pt \"Montserrat Medium\";\n"
 "padding: 10px;\n"
 "border-radius: 10px;")
-        self.lineEdit_2.setObjectName("lineEdit_2")
-        self.horizontalLayout.addWidget(self.lineEdit_2)
-        self.pushButton_3 = QtWidgets.QPushButton(parent=self.horizontalLayoutWidget)
-        self.pushButton_3.setMaximumSize(QtCore.QSize(200, 50))
-        self.pushButton_3.setStyleSheet("QPushButton {\n"
+        self.lineEditQuantity.setObjectName("lineEditQuantity")
+        self.horizontalLayout.addWidget(self.lineEditQuantity)
+        self.pushButtonAdd = QtWidgets.QPushButton(parent=self.horizontalLayoutWidget)
+        self.pushButtonAdd.setMaximumSize(QtCore.QSize(200, 50))
+        self.pushButtonAdd.setStyleSheet("QPushButton {\n"
 "    font: 57 12pt \"Montserrat Medium\";\n"
 "    color: rgb(255, 255, 255);\n"
 "    background-color: #35B6E8; /* Màu nền mặc định */\n"
@@ -344,10 +344,10 @@ class Ui_MainWindowImport(object):
 "")
         icon10 = QtGui.QIcon()
         icon10.addPixmap(QtGui.QPixmap("C:\\Users\\Nicolee\\Coding\\Final_KTLT\\USER_INTERFACE\\Import\\../../RESOURCE/ICON/tick.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
-        self.pushButton_3.setIcon(icon10)
-        self.pushButton_3.setIconSize(QtCore.QSize(25, 25))
-        self.pushButton_3.setObjectName("pushButton_3")
-        self.horizontalLayout.addWidget(self.pushButton_3)
+        self.pushButtonAdd.setIcon(icon10)
+        self.pushButtonAdd.setIconSize(QtCore.QSize(25, 25))
+        self.pushButtonAdd.setObjectName("pushButtonAdd")
+        self.horizontalLayout.addWidget(self.pushButtonAdd)
         self.label_6 = QtWidgets.QLabel(parent=self.centralwidget)
         self.label_6.setGeometry(QtCore.QRect(876, 24, 493, 793))
         self.label_6.setStyleSheet("border-radius: 10px;\n"
@@ -365,15 +365,15 @@ class Ui_MainWindowImport(object):
 "font: 57 12pt \"Montserrat Medium\";")
         self.label_7.setObjectName("label_7")
         self.formLayout.setWidget(1, QtWidgets.QFormLayout.ItemRole.LabelRole, self.label_7)
-        self.label_8 = QtWidgets.QLabel(parent=self.formLayoutWidget)
-        self.label_8.setStyleSheet("\n"
+        self.labelGoodReceiptID = QtWidgets.QLabel(parent=self.formLayoutWidget)
+        self.labelGoodReceiptID.setStyleSheet("\n"
 "color: rgb(157, 167, 220);\n"
 "font: 57 12pt \"Montserrat Medium\";")
-        self.label_8.setObjectName("label_8")
-        self.formLayout.setWidget(1, QtWidgets.QFormLayout.ItemRole.FieldRole, self.label_8)
-        self.comboBox_2 = QtWidgets.QComboBox(parent=self.formLayoutWidget)
-        self.comboBox_2.setObjectName("comboBox_2")
-        self.formLayout.setWidget(3, QtWidgets.QFormLayout.ItemRole.FieldRole, self.comboBox_2)
+        self.labelGoodReceiptID.setObjectName("labelGoodReceiptID")
+        self.formLayout.setWidget(1, QtWidgets.QFormLayout.ItemRole.FieldRole, self.labelGoodReceiptID)
+        self.comboBoxVendor = QtWidgets.QComboBox(parent=self.formLayoutWidget)
+        self.comboBoxVendor.setObjectName("comboBoxVendor")
+        self.formLayout.setWidget(3, QtWidgets.QFormLayout.ItemRole.FieldRole, self.comboBoxVendor)
         self.label_9 = QtWidgets.QLabel(parent=self.formLayoutWidget)
         self.label_9.setStyleSheet("color: rgb(14, 23, 67);\n"
 "font: 57 12pt \"Montserrat Medium\";")
@@ -384,42 +384,42 @@ class Ui_MainWindowImport(object):
 "font: 57 12pt \"Montserrat Medium\";")
         self.label_10.setObjectName("label_10")
         self.formLayout.setWidget(2, QtWidgets.QFormLayout.ItemRole.LabelRole, self.label_10)
-        self.label_11 = QtWidgets.QLabel(parent=self.formLayoutWidget)
-        self.label_11.setStyleSheet("\n"
+        self.labelAdminName = QtWidgets.QLabel(parent=self.formLayoutWidget)
+        self.labelAdminName.setStyleSheet("\n"
 "color: rgb(157, 167, 220);\n"
 "font: 57 12pt \"Montserrat Medium\";")
-        self.label_11.setObjectName("label_11")
-        self.formLayout.setWidget(2, QtWidgets.QFormLayout.ItemRole.FieldRole, self.label_11)
-        self.tableWidget_2 = QtWidgets.QTableWidget(parent=self.centralwidget)
-        self.tableWidget_2.setGeometry(QtCore.QRect(888, 144, 457, 493))
-        self.tableWidget_2.setToolTip("")
-        self.tableWidget_2.setStyleSheet("padding: 5px;\n"
+        self.labelAdminName.setObjectName("labelAdminName")
+        self.formLayout.setWidget(2, QtWidgets.QFormLayout.ItemRole.FieldRole, self.labelAdminName)
+        self.tableWidgetImport = QtWidgets.QTableWidget(parent=self.centralwidget)
+        self.tableWidgetImport.setGeometry(QtCore.QRect(888, 144, 457, 493))
+        self.tableWidgetImport.setToolTip("")
+        self.tableWidgetImport.setStyleSheet("padding: 5px;\n"
 "border-radius: 10px;\n"
 "color: rgb(14, 23, 67);\n"
 "background-color: rgb(242, 242, 242);\n"
 "font: 57 10pt \"Montserrat Medium\";\n"
 "")
-        self.tableWidget_2.setObjectName("tableWidget_2")
-        self.tableWidget_2.setColumnCount(4)
-        self.tableWidget_2.setRowCount(0)
+        self.tableWidgetImport.setObjectName("tableWidgetImport")
+        self.tableWidgetImport.setColumnCount(4)
+        self.tableWidgetImport.setRowCount(0)
         item = QtWidgets.QTableWidgetItem()
-        self.tableWidget_2.setHorizontalHeaderItem(0, item)
+        self.tableWidgetImport.setHorizontalHeaderItem(0, item)
         item = QtWidgets.QTableWidgetItem()
-        self.tableWidget_2.setHorizontalHeaderItem(1, item)
+        self.tableWidgetImport.setHorizontalHeaderItem(1, item)
         item = QtWidgets.QTableWidgetItem()
-        self.tableWidget_2.setHorizontalHeaderItem(2, item)
+        self.tableWidgetImport.setHorizontalHeaderItem(2, item)
         item = QtWidgets.QTableWidgetItem()
-        self.tableWidget_2.setHorizontalHeaderItem(3, item)
+        self.tableWidgetImport.setHorizontalHeaderItem(3, item)
         self.horizontalLayoutWidget_2 = QtWidgets.QWidget(parent=self.centralwidget)
         self.horizontalLayoutWidget_2.setGeometry(QtCore.QRect(888, 648, 457, 61))
         self.horizontalLayoutWidget_2.setObjectName("horizontalLayoutWidget_2")
         self.horizontalLayout_2 = QtWidgets.QHBoxLayout(self.horizontalLayoutWidget_2)
         self.horizontalLayout_2.setContentsMargins(0, 0, 0, 0)
         self.horizontalLayout_2.setObjectName("horizontalLayout_2")
-        self.pushButton_5 = QtWidgets.QPushButton(parent=self.horizontalLayoutWidget_2)
-        self.pushButton_5.setMaximumSize(QtCore.QSize(200, 50))
-        self.pushButton_5.setSizeIncrement(QtCore.QSize(200, 50))
-        self.pushButton_5.setStyleSheet("QPushButton {\n"
+        self.pushButtonEdit = QtWidgets.QPushButton(parent=self.horizontalLayoutWidget_2)
+        self.pushButtonEdit.setMaximumSize(QtCore.QSize(200, 50))
+        self.pushButtonEdit.setSizeIncrement(QtCore.QSize(200, 50))
+        self.pushButtonEdit.setStyleSheet("QPushButton {\n"
 "    font: 57 12pt \"Montserrat Medium\";\n"
 "    color: rgb(255, 255, 255);\n"
 "    background-color: #62DE92; /* Màu nền mặc định */\n"
@@ -441,12 +441,12 @@ class Ui_MainWindowImport(object):
 "    border: 5px solid #62DE92; /* Viền khi nút được focus */ \n"
 "}\n"
 "")
-        self.pushButton_5.setObjectName("pushButton_5")
-        self.horizontalLayout_2.addWidget(self.pushButton_5)
-        self.pushButton_4 = QtWidgets.QPushButton(parent=self.horizontalLayoutWidget_2)
-        self.pushButton_4.setMaximumSize(QtCore.QSize(200, 50))
-        self.pushButton_4.setSizeIncrement(QtCore.QSize(200, 50))
-        self.pushButton_4.setStyleSheet("QPushButton {\n"
+        self.pushButtonEdit.setObjectName("pushButtonEdit")
+        self.horizontalLayout_2.addWidget(self.pushButtonEdit)
+        self.pushButtonDelete = QtWidgets.QPushButton(parent=self.horizontalLayoutWidget_2)
+        self.pushButtonDelete.setMaximumSize(QtCore.QSize(200, 50))
+        self.pushButtonDelete.setSizeIncrement(QtCore.QSize(200, 50))
+        self.pushButtonDelete.setStyleSheet("QPushButton {\n"
 "    font: 57 12pt \"Montserrat Medium\";\n"
 "    color: rgb(255, 255, 255);\n"
 "    background-color: #9DA7DC; /* Màu nền mặc định */\n"
@@ -468,8 +468,8 @@ class Ui_MainWindowImport(object):
 "    border: 5px solid #9DA7DC; /* Viền khi nút được focus */ \n"
 "}\n"
 "")
-        self.pushButton_4.setObjectName("pushButton_4")
-        self.horizontalLayout_2.addWidget(self.pushButton_4)
+        self.pushButtonDelete.setObjectName("pushButtonDelete")
+        self.horizontalLayout_2.addWidget(self.pushButtonDelete)
         self.horizontalGroupBox_3 = QtWidgets.QGroupBox(parent=self.centralwidget)
         self.horizontalGroupBox_3.setGeometry(QtCore.QRect(888, 720, 457, 80))
         self.horizontalGroupBox_3.setObjectName("horizontalGroupBox_3")
@@ -482,14 +482,14 @@ class Ui_MainWindowImport(object):
 "color: rgb(229, 0, 0);")
         self.label_12.setObjectName("label_12")
         self.horizontalLayout_3.addWidget(self.label_12)
-        self.label_13 = QtWidgets.QLabel(parent=self.horizontalGroupBox_3)
-        self.label_13.setStyleSheet("font: 81 14pt \"Montserrat ExtraBold\";\n"
+        self.labelTotalPrice = QtWidgets.QLabel(parent=self.horizontalGroupBox_3)
+        self.labelTotalPrice.setStyleSheet("font: 81 14pt \"Montserrat ExtraBold\";\n"
 "color: rgb(229, 0, 0);")
-        self.label_13.setObjectName("label_13")
-        self.horizontalLayout_3.addWidget(self.label_13)
-        self.pushButton_6 = QtWidgets.QPushButton(parent=self.horizontalGroupBox_3)
-        self.pushButton_6.setMaximumSize(QtCore.QSize(16777215, 30))
-        self.pushButton_6.setStyleSheet("QPushButton {\n"
+        self.labelTotalPrice.setObjectName("labelTotalPrice")
+        self.horizontalLayout_3.addWidget(self.labelTotalPrice)
+        self.pushButtonImportEx = QtWidgets.QPushButton(parent=self.horizontalGroupBox_3)
+        self.pushButtonImportEx.setMaximumSize(QtCore.QSize(16777215, 30))
+        self.pushButtonImportEx.setStyleSheet("QPushButton {\n"
 "    font: 57 12pt \"Montserrat Medium\";\n"
 "    color: rgb(255, 255, 255);\n"
 "    background-color: #35B6E8; /* Màu nền mặc định */\n"
@@ -511,21 +511,21 @@ class Ui_MainWindowImport(object):
 "    border: 5px solid #8EDAF8; /* Viền khi nút được focus */ \n"
 "}\n"
 "")
-        self.pushButton_6.setObjectName("pushButton_6")
-        self.horizontalLayout_3.addWidget(self.pushButton_6)
+        self.pushButtonImportEx.setObjectName("pushButtonImportEx")
+        self.horizontalLayout_3.addWidget(self.pushButtonImportEx)
         self.label_2.raise_()
         self.label.raise_()
         self.verticalLayoutWidget.raise_()
         self.groupBox_2.raise_()
-        self.tableWidget.raise_()
+        self.tableWidgetDefault.raise_()
         self.label_4.raise_()
         self.label_5.raise_()
-        self.pushButton_2.raise_()
+        self.pushButtonExit.raise_()
         self.label_3.raise_()
         self.horizontalLayoutWidget.raise_()
         self.label_6.raise_()
         self.formLayoutWidget.raise_()
-        self.tableWidget_2.raise_()
+        self.tableWidgetImport.raise_()
         self.horizontalLayoutWidget_2.raise_()
         self.horizontalGroupBox_3.raise_()
         MainWindowImport.setCentralWidget(self.centralwidget)
@@ -553,42 +553,42 @@ class Ui_MainWindowImport(object):
         self.pushButtonInventory.setText(_translate("MainWindowImport", " Inventory"))
         self.pushButtonStatistic.setText(_translate("MainWindowImport", "  Statistic"))
         self.groupBox_2.setTitle(_translate("MainWindowImport", "Search "))
-        self.lineEdit.setPlaceholderText(_translate("MainWindowImport", "*Search term"))
-        self.comboBox.setCurrentText(_translate("MainWindowImport", "All"))
-        self.comboBox.setItemText(0, _translate("MainWindowImport", "All"))
-        self.comboBox.setItemText(1, _translate("MainWindowImport", "ID"))
-        self.comboBox.setItemText(2, _translate("MainWindowImport", "Title"))
-        self.comboBox.setItemText(3, _translate("MainWindowImport", "Artist"))
-        self.comboBox.setItemText(4, _translate("MainWindowImport", "Year"))
-        self.comboBox.setItemText(5, _translate("MainWindowImport", "Category"))
-        item = self.tableWidget.horizontalHeaderItem(0)
+        self.lineEditSearch.setPlaceholderText(_translate("MainWindowImport", "*Search term"))
+        self.comboBoxSearch.setCurrentText(_translate("MainWindowImport", "All"))
+        self.comboBoxSearch.setItemText(0, _translate("MainWindowImport", "All"))
+        self.comboBoxSearch.setItemText(1, _translate("MainWindowImport", "ID"))
+        self.comboBoxSearch.setItemText(2, _translate("MainWindowImport", "Title"))
+        self.comboBoxSearch.setItemText(3, _translate("MainWindowImport", "Artist"))
+        self.comboBoxSearch.setItemText(4, _translate("MainWindowImport", "Year"))
+        self.comboBoxSearch.setItemText(5, _translate("MainWindowImport", "Category"))
+        item = self.tableWidgetDefault.horizontalHeaderItem(0)
         item.setText(_translate("MainWindowImport", "Album ID"))
-        item = self.tableWidget.horizontalHeaderItem(1)
+        item = self.tableWidgetDefault.horizontalHeaderItem(1)
         item.setText(_translate("MainWindowImport", "Title"))
-        item = self.tableWidget.horizontalHeaderItem(2)
+        item = self.tableWidgetDefault.horizontalHeaderItem(2)
         item.setText(_translate("MainWindowImport", "Stock"))
-        item = self.tableWidget.horizontalHeaderItem(3)
+        item = self.tableWidgetDefault.horizontalHeaderItem(3)
         item.setText(_translate("MainWindowImport", "Price"))
         self.label_4.setText(_translate("MainWindowImport", "00:00"))
         self.label_5.setText(_translate("MainWindowImport", "Hi Admin!"))
-        self.pushButton_2.setText(_translate("MainWindowImport", "EXIT"))
-        self.lineEdit_2.setPlaceholderText(_translate("MainWindowImport", "*Quantity"))
-        self.pushButton_3.setText(_translate("MainWindowImport", " Add"))
+        self.pushButtonExit.setText(_translate("MainWindowImport", "EXIT"))
+        self.lineEditQuantity.setPlaceholderText(_translate("MainWindowImport", "*Quantity"))
+        self.pushButtonAdd.setText(_translate("MainWindowImport", " Add"))
         self.label_7.setText(_translate("MainWindowImport", "Good Receipt ID"))
-        self.label_8.setText(_translate("MainWindowImport", "#0000"))
+        self.labelGoodReceiptID.setText(_translate("MainWindowImport", "#0000"))
         self.label_9.setText(_translate("MainWindowImport", "Vendor"))
         self.label_10.setText(_translate("MainWindowImport", "Admin"))
-        self.label_11.setText(_translate("MainWindowImport", "Admin"))
-        item = self.tableWidget_2.horizontalHeaderItem(0)
+        self.labelAdminName.setText(_translate("MainWindowImport", "Admin"))
+        item = self.tableWidgetImport.horizontalHeaderItem(0)
         item.setText(_translate("MainWindowImport", "Album ID"))
-        item = self.tableWidget_2.horizontalHeaderItem(1)
+        item = self.tableWidgetImport.horizontalHeaderItem(1)
         item.setText(_translate("MainWindowImport", "Title"))
-        item = self.tableWidget_2.horizontalHeaderItem(2)
+        item = self.tableWidgetImport.horizontalHeaderItem(2)
         item.setText(_translate("MainWindowImport", "Quantity"))
-        item = self.tableWidget_2.horizontalHeaderItem(3)
+        item = self.tableWidgetImport.horizontalHeaderItem(3)
         item.setText(_translate("MainWindowImport", "Price"))
-        self.pushButton_5.setText(_translate("MainWindowImport", "Edit Quantity"))
-        self.pushButton_4.setText(_translate("MainWindowImport", "Delete"))
+        self.pushButtonEdit.setText(_translate("MainWindowImport", "Edit Quantity"))
+        self.pushButtonDelete.setText(_translate("MainWindowImport", "Delete"))
         self.label_12.setText(_translate("MainWindowImport", "Total Price = "))
-        self.label_13.setText(_translate("MainWindowImport", "50000"))
-        self.pushButton_6.setText(_translate("MainWindowImport", "Import "))
+        self.labelTotalPrice.setText(_translate("MainWindowImport", "50000"))
+        self.pushButtonImportEx.setText(_translate("MainWindowImport", "Import "))

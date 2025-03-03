@@ -458,7 +458,7 @@ font: 25 10pt &quot;Montserrat Light&quot;;</string>
     <property name="title">
      <string>Search </string>
     </property>
-    <widget class="QLineEdit" name="lineEdit">
+    <widget class="QLineEdit" name="lineEditSearch">
      <property name="geometry">
       <rect>
        <x>156</x>
@@ -480,7 +480,7 @@ padding: 10px;</string>
       <string>*Search term</string>
      </property>
     </widget>
-    <widget class="QPushButton" name="pushButton">
+    <widget class="QPushButton" name="pushButtonSearch">
      <property name="geometry">
       <rect>
        <x>528</x>
@@ -531,7 +531,7 @@ QPushButton:focus {
       </size>
      </property>
     </widget>
-    <widget class="QComboBox" name="comboBox">
+    <widget class="QComboBox" name="comboBoxSearch">
      <property name="geometry">
       <rect>
        <x>12</x>
@@ -587,7 +587,7 @@ padding: 10px;</string>
      </item>
     </widget>
    </widget>
-   <widget class="QTableWidget" name="tableWidget">
+   <widget class="QTableWidget" name="tableWidgetDefault">
     <property name="geometry">
      <rect>
       <x>264</x>
@@ -668,7 +668,7 @@ background-color: rgb(5, 129, 249);</string>
      <set>Qt::AlignCenter</set>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_2">
+   <widget class="QPushButton" name="pushButtonExit">
     <property name="geometry">
      <rect>
       <x>60</x>
@@ -745,7 +745,7 @@ background-color: rgb(255, 255, 255);</string>
       <number>15</number>
      </property>
      <item>
-      <widget class="QLineEdit" name="lineEdit_2">
+      <widget class="QLineEdit" name="lineEditQuantity">
        <property name="maximumSize">
         <size>
          <width>250</width>
@@ -765,7 +765,7 @@ border-radius: 10px;</string>
       </widget>
      </item>
      <item>
-      <widget class="QPushButton" name="pushButton_3">
+      <widget class="QPushButton" name="pushButtonAdd">
        <property name="maximumSize">
         <size>
          <width>200</width>
@@ -852,7 +852,7 @@ font: 57 12pt &quot;Montserrat Medium&quot;;</string>
       </widget>
      </item>
      <item row="1" column="1">
-      <widget class="QLabel" name="label_8">
+      <widget class="QLabel" name="labelGoodReceiptID">
        <property name="styleSheet">
         <string notr="true">
 color: rgb(157, 167, 220);
@@ -864,7 +864,7 @@ font: 57 12pt &quot;Montserrat Medium&quot;;</string>
       </widget>
      </item>
      <item row="3" column="1">
-      <widget class="QComboBox" name="comboBox_2"/>
+      <widget class="QComboBox" name="comboBoxVendor"/>
      </item>
      <item row="3" column="0">
       <widget class="QLabel" name="label_9">
@@ -889,7 +889,7 @@ font: 57 12pt &quot;Montserrat Medium&quot;;</string>
       </widget>
      </item>
      <item row="2" column="1">
-      <widget class="QLabel" name="label_11">
+      <widget class="QLabel" name="labelAdminName">
        <property name="styleSheet">
         <string notr="true">
 color: rgb(157, 167, 220);
@@ -902,7 +902,7 @@ font: 57 12pt &quot;Montserrat Medium&quot;;</string>
      </item>
     </layout>
    </widget>
-   <widget class="QTableWidget" name="tableWidget_2">
+   <widget class="QTableWidget" name="tableWidgetImport">
     <property name="geometry">
      <rect>
       <x>888</x>
@@ -954,7 +954,7 @@ font: 57 10pt &quot;Montserrat Medium&quot;;
     </property>
     <layout class="QHBoxLayout" name="horizontalLayout_2">
      <item>
-      <widget class="QPushButton" name="pushButton_5">
+      <widget class="QPushButton" name="pushButtonEdit">
        <property name="maximumSize">
         <size>
          <width>200</width>
@@ -997,7 +997,7 @@ QPushButton:focus {
       </widget>
      </item>
      <item>
-      <widget class="QPushButton" name="pushButton_4">
+      <widget class="QPushButton" name="pushButtonDelete">
        <property name="maximumSize">
         <size>
          <width>200</width>
@@ -1072,7 +1072,7 @@ color: rgb(229, 0, 0);</string>
       </widget>
      </item>
      <item>
-      <widget class="QLabel" name="label_13">
+      <widget class="QLabel" name="labelTotalPrice">
        <property name="styleSheet">
         <string notr="true">font: 81 14pt &quot;Montserrat ExtraBold&quot;;
 color: rgb(229, 0, 0);</string>
@@ -1083,7 +1083,7 @@ color: rgb(229, 0, 0);</string>
       </widget>
      </item>
      <item>
-      <widget class="QPushButton" name="pushButton_6">
+      <widget class="QPushButton" name="pushButtonImportEx">
        <property name="maximumSize">
         <size>
          <width>16777215</width>
@@ -1125,15 +1125,15 @@ QPushButton:focus {
    <zorder>label</zorder>
    <zorder>verticalLayoutWidget</zorder>
    <zorder>groupBox_2</zorder>
-   <zorder>tableWidget</zorder>
+   <zorder>tableWidgetDefault</zorder>
    <zorder>label_4</zorder>
    <zorder>label_5</zorder>
-   <zorder>pushButton_2</zorder>
+   <zorder>pushButtonExit</zorder>
    <zorder>label_3</zorder>
    <zorder>horizontalLayoutWidget</zorder>
    <zorder>label_6</zorder>
    <zorder>formLayoutWidget</zorder>
-   <zorder>tableWidget_2</zorder>
+   <zorder>tableWidgetImport</zorder>
    <zorder>horizontalLayoutWidget_2</zorder>
    <zorder>horizontalGroupBox_3</zorder>
   </widget>
