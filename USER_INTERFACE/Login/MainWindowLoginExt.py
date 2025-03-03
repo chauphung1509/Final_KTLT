@@ -1,4 +1,4 @@
-from USER_INTERFACE.DEFAULT.MainWindowLogin import Ui_Login
+from USER_INTERFACE.Login.MainWindowLogin import Ui_Login
 
 
 class MainWindowLoginExt(Ui_Login):

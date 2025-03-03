@@ -1,6 +1,6 @@
 from PyQt6.QtWidgets import QMainWindow, QApplication
 
-from USER_INTERFACE.MainWindowAdminExt import MainWindowAdminExt
+from USER_INTERFACE.Admin.MainWindowAdminExt import MainWindowAdminExt
 
 app=QApplication([])
 mainwindow=QMainWindow()

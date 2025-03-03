@@ -1,7 +1,7 @@
 from PyQt6.QtWidgets import QMainWindow
 
 from MODELS.Admin import Staff
-from USER_INTERFACE.DEFAULT.MainWindowAddAmin import Ui_MainWindowAddAdmin
+from USER_INTERFACE.Admin.MainWindowAddAmin import Ui_MainWindowAddAdmin
 
 
 class MainWindowAddAdminExt(QMainWindow, Ui_MainWindowAddAdmin):

@@ -1,8 +1,8 @@
 from PyQt6.QtWidgets import QMainWindow
 
-from USER_INTERFACE.MainWindowAddAdminExt import MainWindowAddAdminExt
-from USER_INTERFACE.DEFAULT.MainWindowAdmin import Ui_MainWindow
-from USER_INTERFACE.MainWindowVendorExt import MainWindowVendorExt
+from USER_INTERFACE.Admin.MainWindowAddAdminExt import MainWindowAddAdminExt
+from USER_INTERFACE.Admin.MainWindowAdmin import Ui_MainWindow
+from USER_INTERFACE.Vendor.MainWindowVendorExt import MainWindowVendorExt
 
 class MainWindowAdminExt(QMainWindow, Ui_MainWindow):
     def __init__(self):

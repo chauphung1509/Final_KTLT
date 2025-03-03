@@ -1,6 +1,6 @@
 from PyQt6.QtWidgets import QMainWindow, QApplication
 
-from USER_INTERFACE.MainWindowLoginExt import MainWindowLoginExt
+from USER_INTERFACE.Login.MainWindowLoginExt import MainWindowLoginExt
 
 app=QApplication([])
 mainwindow=QMainWindow()
