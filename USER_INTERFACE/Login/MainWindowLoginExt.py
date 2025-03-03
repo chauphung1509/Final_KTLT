@@ -2,6 +2,7 @@ from PyQt6.QtWidgets import QMainWindow, QMessageBox
 
 from LIBRARY.DataConnector import DataConnector
 from USER_INTERFACE.Login.MainWindowLogin import Ui_Login
+from USER_INTERFACE.Login.MainWindowSignupExt import MainWindowSignupExt
 from USER_INTERFACE.Product.MainWindowProductExt import MainWindowProductExt
 
 
@@ -32,6 +33,12 @@ class MainWindowLoginExt(Ui_Login):
             self.msg.setText("Đăng nhập thất bại")
             self.msg.exec()
     def process_create_account(self):
-        pass
+        self.MainWindow.close()
+        self.mainwindow=QMainWindow()
+        self.myui=MainWindowSignupExt()
+        self.myui.setupUi(self.mainwindow)
+        self.myui.showWindow()
+        #khi bấm create account thì nó chuyển qua trang create account thành công rùi
+
 
 
