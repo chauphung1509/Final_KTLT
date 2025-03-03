@@ -355,10 +355,12 @@ class Ui_MainWindowExport(object):
         self.label_6.setText("")
         self.label_6.setObjectName("label_6")
         self.formLayoutWidget = QtWidgets.QWidget(parent=self.centralwidget)
-        self.formLayoutWidget.setGeometry(QtCore.QRect(891, 48, 457, 85))
+        self.formLayoutWidget.setGeometry(QtCore.QRect(903, 48, 445, 85))
         self.formLayoutWidget.setObjectName("formLayoutWidget")
         self.formLayout = QtWidgets.QFormLayout(self.formLayoutWidget)
         self.formLayout.setContentsMargins(0, 0, 0, 0)
+        self.formLayout.setHorizontalSpacing(16)
+        self.formLayout.setVerticalSpacing(9)
         self.formLayout.setObjectName("formLayout")
         self.label_7 = QtWidgets.QLabel(parent=self.formLayoutWidget)
         self.label_7.setStyleSheet("color: rgb(14, 23, 67);\n"
