@@ -5,7 +5,7 @@ from MODELS.Admin import Staff
 
 class DataConnector:
     def get_all_staff(self):
-        filename = "../dataset/employees.xlsx"
+        filename = "../dataset/staffs.xlsx"
         df = pd.read_excel(filename)
 
         listofstaff = []

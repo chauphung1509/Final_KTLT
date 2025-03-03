@@ -94,7 +94,7 @@ font: 25 10pt &quot;Montserrat Light&quot;;</string>
        <number>8</number>
       </property>
       <item>
-       <widget class="QLineEdit" name="lineEditUsername_2">
+       <widget class="QLineEdit" name="lineEditStaffID">
         <property name="maximumSize">
          <size>
           <width>16777215</width>
@@ -131,7 +131,7 @@ padding: 10px;</string>
        </widget>
       </item>
       <item>
-       <widget class="QLineEdit" name="lineEditPassword_2">
+       <widget class="QLineEdit" name="lineEditName">
         <property name="maximumSize">
          <size>
           <width>16777215</width>
@@ -171,7 +171,7 @@ padding: 10px;</string>
        </widget>
       </item>
       <item>
-       <widget class="QLineEdit" name="lineEditPassword_3">
+       <widget class="QLineEdit" name="lineEditPosition">
         <property name="maximumSize">
          <size>
           <width>16777215</width>
@@ -211,7 +211,7 @@ padding: 10px;</string>
        </widget>
       </item>
       <item>
-       <widget class="QLineEdit" name="lineEditPassword_4">
+       <widget class="QLineEdit" name="lineEditPhone">
         <property name="maximumSize">
          <size>
           <width>16777215</width>
@@ -251,7 +251,7 @@ padding: 10px;</string>
        </widget>
       </item>
       <item>
-       <widget class="QLineEdit" name="lineEditPassword_5">
+       <widget class="QLineEdit" name="lineEditEmail">
         <property name="maximumSize">
          <size>
           <width>16777215</width>
@@ -306,7 +306,7 @@ padding: 10px;</string>
        <number>8</number>
       </property>
       <item>
-       <widget class="QLineEdit" name="lineEditUsername_3">
+       <widget class="QLineEdit" name="lineEditUsername">
         <property name="maximumSize">
          <size>
           <width>16777215</width>
@@ -346,7 +346,7 @@ padding: 10px;</string>
        </widget>
       </item>
       <item>
-       <widget class="QLineEdit" name="lineEditPassword_6">
+       <widget class="QLineEdit" name="lineEditPassword">
         <property name="maximumSize">
          <size>
           <width>16777215</width>
@@ -386,7 +386,7 @@ padding: 10px;</string>
        </widget>
       </item>
       <item>
-       <widget class="QLineEdit" name="lineEditPassword_7">
+       <widget class="QLineEdit" name="lineEditPasswordagain">
         <property name="maximumSize">
          <size>
           <width>16777215</width>
@@ -441,7 +441,7 @@ padding: 10px;</string>
        <number>0</number>
       </property>
       <item>
-       <widget class="QPushButton" name="pushButtonLogin_2">
+       <widget class="QPushButton" name="pushButtonCreate">
         <property name="maximumSize">
          <size>
           <width>16777215</width>
@@ -499,7 +499,7 @@ QPushButton:focus {
          <number>11</number>
         </property>
         <item>
-         <widget class="QPushButton" name="pushButtonLogin">
+         <widget class="QPushButton" name="pushButtonClear">
           <property name="maximumSize">
            <size>
             <width>16777215</width>
@@ -551,7 +551,7 @@ QPushButton:focus {
          </widget>
         </item>
         <item>
-         <widget class="QPushButton" name="pushButtonLogin_3">
+         <widget class="QPushButton" name="pushButtonCancel">
           <property name="maximumSize">
            <size>
             <width>16777215</width>
