@@ -1,3 +1,5 @@
+from PyQt6.QtWidgets import QMainWindow
+
 from USER_INTERFACE.MainWindowProduct import Ui_MainWindowProduct
 
 
