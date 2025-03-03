@@ -1,9 +1,7 @@
 from PyQt6.QtWidgets import QMainWindow
+from USER_INTERFACE.Vendor.MainWindowVendor import Ui_MainWindowVendor
 
-from USER_INTERFACE.MainWindowProduct import Ui_MainWindowProduct
-
-
-class MainWindowProductExt(QMainWindow, Ui_MainWindowProduct):
+class MainWindowVendorExt(QMainWindow, Ui_MainWindowVendor):
     def __init__(self, parent=None):  # Nhận parent để quay lại
         super().__init__()
         self.setupUi(self)

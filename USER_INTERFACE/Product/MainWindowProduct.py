@@ -1,4 +1,4 @@
-# Form implementation generated from reading ui file 'C:\Users\Nicolee\Coding\Final_KTLT\USER_INTERFACE\MainWindowProduct.ui'
+# Form implementation generated from reading ui file 'C:\Users\Nicolee\Coding\Final_KTLT\USER_INTERFACE\DEFAULT\MainWindowProduct.ui'
 #
 # Created by: PyQt6 UI code generator 6.7.1
 #
@@ -7,7 +7,6 @@
 
 
 from PyQt6 import QtCore, QtGui, QtWidgets
-
 
 class Ui_MainWindowProduct(object):
     def setupUi(self, MainWindowProduct):
@@ -38,13 +37,11 @@ class Ui_MainWindowProduct(object):
         self.pushButtonProduct.setToolTipDuration(-1)
         self.pushButtonProduct.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
         self.pushButtonProduct.setAutoFillBackground(False)
-        self.pushButtonProduct.setStyleSheet("color: rgb(14, 23, 67);\n"
-"font: 63 12pt \"Montserrat SemiBold\";\n"
-"background-color: rgb(255, 255, 255);\n"
-"border: 1px solid #9b9fa2;\n"
-"")
+        self.pushButtonProduct.setStyleSheet("font: 63 12pt \"Montserrat SemiBold\";\n"
+"color: rgb(14, 23, 67);\n"
+"background-color: rgb(242, 248, 255)")
         icon = QtGui.QIcon()
-        icon.addPixmap(QtGui.QPixmap("C:\\Users\\Nicolee\\Coding\\Final_KTLT\\USER_INTERFACE\\../RESOURCE/ICON/album.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
+        icon.addPixmap(QtGui.QPixmap("/RESOURCE/ICON/album.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
         self.pushButtonProduct.setIcon(icon)
         self.pushButtonProduct.setIconSize(QtCore.QSize(32, 32))
         self.pushButtonProduct.setObjectName("pushButtonProduct")
@@ -59,7 +56,7 @@ class Ui_MainWindowProduct(object):
 "border: 1px solid #9b9fa2;\n"
 "color: rgb(155, 159, 162);")
         icon1 = QtGui.QIcon()
-        icon1.addPixmap(QtGui.QPixmap("C:\\Users\\Nicolee\\Coding\\Final_KTLT\\USER_INTERFACE\\../RESOURCE/ICON/adm2.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
+        icon1.addPixmap(QtGui.QPixmap("/RESOURCE/ICON/adm2.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
         self.pushButtonAdmin.setIcon(icon1)
         self.pushButtonAdmin.setIconSize(QtCore.QSize(35, 35))
         self.pushButtonAdmin.setObjectName("pushButtonAdmin")
@@ -74,7 +71,7 @@ class Ui_MainWindowProduct(object):
 "border: 1px solid #9b9fa2;\n"
 "color: rgb(155, 159, 162);")
         icon2 = QtGui.QIcon()
-        icon2.addPixmap(QtGui.QPixmap("C:\\Users\\Nicolee\\Coding\\Final_KTLT\\USER_INTERFACE\\../RESOURCE/ICON/vendor1.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
+        icon2.addPixmap(QtGui.QPixmap("/RESOURCE/ICON/vendor1.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
         self.pushButtonVendor.setIcon(icon2)
         self.pushButtonVendor.setIconSize(QtCore.QSize(32, 32))
         self.pushButtonVendor.setObjectName("pushButtonVendor")
@@ -90,7 +87,7 @@ class Ui_MainWindowProduct(object):
 "border: 1px solid #9b9fa2;\n"
 "color: rgb(155, 159, 162);")
         icon3 = QtGui.QIcon()
-        icon3.addPixmap(QtGui.QPixmap("C:\\Users\\Nicolee\\Coding\\Final_KTLT\\USER_INTERFACE\\../RESOURCE/ICON/import.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
+        icon3.addPixmap(QtGui.QPixmap("/RESOURCE/ICON/import.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
         self.pushButtonImport.setIcon(icon3)
         self.pushButtonImport.setIconSize(QtCore.QSize(30, 30))
         self.pushButtonImport.setObjectName("pushButtonImport")
@@ -106,7 +103,7 @@ class Ui_MainWindowProduct(object):
 "border: 1px solid #9b9fa2;\n"
 "color: rgb(155, 159, 162);")
         icon4 = QtGui.QIcon()
-        icon4.addPixmap(QtGui.QPixmap("C:\\Users\\Nicolee\\Coding\\Final_KTLT\\USER_INTERFACE\\../RESOURCE/ICON/doc.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
+        icon4.addPixmap(QtGui.QPixmap("/RESOURCE/ICON/doc.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
         self.pushButtonReceipt.setIcon(icon4)
         self.pushButtonReceipt.setIconSize(QtCore.QSize(35, 35))
         self.pushButtonReceipt.setObjectName("pushButtonReceipt")
@@ -122,7 +119,7 @@ class Ui_MainWindowProduct(object):
 "border: 1px solid #9b9fa2;\n"
 "color: rgb(155, 159, 162);")
         icon5 = QtGui.QIcon()
-        icon5.addPixmap(QtGui.QPixmap("C:\\Users\\Nicolee\\Coding\\Final_KTLT\\USER_INTERFACE\\../RESOURCE/ICON/export.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
+        icon5.addPixmap(QtGui.QPixmap("/RESOURCE/ICON/export.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
         self.pushButtonExport.setIcon(icon5)
         self.pushButtonExport.setIconSize(QtCore.QSize(30, 30))
         self.pushButtonExport.setObjectName("pushButtonExport")
@@ -152,7 +149,7 @@ class Ui_MainWindowProduct(object):
 "border: 1px solid #9b9fa2;\n"
 "color: rgb(155, 159, 162);")
         icon6 = QtGui.QIcon()
-        icon6.addPixmap(QtGui.QPixmap("C:\\Users\\Nicolee\\Coding\\Final_KTLT\\USER_INTERFACE\\../RESOURCE/ICON/inventory.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
+        icon6.addPixmap(QtGui.QPixmap("/RESOURCE/ICON/inventory.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
         self.pushButtonInventory.setIcon(icon6)
         self.pushButtonInventory.setIconSize(QtCore.QSize(30, 30))
         self.pushButtonInventory.setObjectName("pushButtonInventory")
@@ -168,7 +165,7 @@ class Ui_MainWindowProduct(object):
 "border: 1px solid #9b9fa2;\n"
 "color: rgb(155, 159, 162);")
         icon7 = QtGui.QIcon()
-        icon7.addPixmap(QtGui.QPixmap("C:\\Users\\Nicolee\\Coding\\Final_KTLT\\USER_INTERFACE\\../RESOURCE/ICON/statis.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
+        icon7.addPixmap(QtGui.QPixmap("/RESOURCE/ICON/statis.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
         self.pushButtonStatistic.setIcon(icon7)
         self.pushButtonStatistic.setIconSize(QtCore.QSize(32, 32))
         self.pushButtonStatistic.setObjectName("pushButtonStatistic")
@@ -213,7 +210,7 @@ class Ui_MainWindowProduct(object):
 "")
         self.pushButtonNew.setText("")
         icon8 = QtGui.QIcon()
-        icon8.addPixmap(QtGui.QPixmap("C:\\Users\\Nicolee\\Coding\\Final_KTLT\\USER_INTERFACE\\../RESOURCE/ICON/new.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
+        icon8.addPixmap(QtGui.QPixmap("/RESOURCE/ICON/new.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
         self.pushButtonNew.setIcon(icon8)
         self.pushButtonNew.setIconSize(QtCore.QSize(32, 32))
         self.pushButtonNew.setObjectName("pushButtonNew")
@@ -243,7 +240,7 @@ class Ui_MainWindowProduct(object):
 "")
         self.pushButtonEdit.setText("")
         icon9 = QtGui.QIcon()
-        icon9.addPixmap(QtGui.QPixmap("C:\\Users\\Nicolee\\Coding\\Final_KTLT\\USER_INTERFACE\\../RESOURCE/ICON/edit.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
+        icon9.addPixmap(QtGui.QPixmap("/RESOURCE/ICON/edit.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
         self.pushButtonEdit.setIcon(icon9)
         self.pushButtonEdit.setIconSize(QtCore.QSize(32, 32))
         self.pushButtonEdit.setObjectName("pushButtonEdit")
@@ -273,7 +270,7 @@ class Ui_MainWindowProduct(object):
 "")
         self.pushButtonDelete.setText("")
         icon10 = QtGui.QIcon()
-        icon10.addPixmap(QtGui.QPixmap("C:\\Users\\Nicolee\\Coding\\Final_KTLT\\USER_INTERFACE\\../RESOURCE/ICON/delete.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
+        icon10.addPixmap(QtGui.QPixmap("/RESOURCE/ICON/delete.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
         self.pushButtonDelete.setIcon(icon10)
         self.pushButtonDelete.setIconSize(QtCore.QSize(32, 32))
         self.pushButtonDelete.setObjectName("pushButtonDelete")
@@ -313,7 +310,7 @@ class Ui_MainWindowProduct(object):
 "}\n"
 "")
         icon11 = QtGui.QIcon()
-        icon11.addPixmap(QtGui.QPixmap("C:\\Users\\Nicolee\\Coding\\Final_KTLT\\USER_INTERFACE\\../RESOURCE/ICON/exc.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
+        icon11.addPixmap(QtGui.QPixmap("/RESOURCE/ICON/exc.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
         self.pushButtonExcel.setIcon(icon11)
         self.pushButtonExcel.setIconSize(QtCore.QSize(70, 70))
         self.pushButtonExcel.setObjectName("pushButtonExcel")
@@ -363,7 +360,7 @@ class Ui_MainWindowProduct(object):
 "")
         self.pushButton.setText("")
         icon12 = QtGui.QIcon()
-        icon12.addPixmap(QtGui.QPixmap("C:\\Users\\Nicolee\\Coding\\Final_KTLT\\USER_INTERFACE\\../RESOURCE/ICON/search.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
+        icon12.addPixmap(QtGui.QPixmap("/RESOURCE/ICON/search.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
         self.pushButton.setIcon(icon12)
         self.pushButton.setIconSize(QtCore.QSize(25, 25))
         self.pushButton.setObjectName("pushButton")
@@ -444,7 +441,7 @@ class Ui_MainWindowProduct(object):
 "}\n"
 "")
         icon13 = QtGui.QIcon()
-        icon13.addPixmap(QtGui.QPixmap("C:\\Users\\Nicolee\\Coding\\Final_KTLT\\USER_INTERFACE\\../RESOURCE/ICON/turnoff.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
+        icon13.addPixmap(QtGui.QPixmap("/RESOURCE/ICON/turnoff.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
         self.pushButton_2.setIcon(icon13)
         self.pushButton_2.setIconSize(QtCore.QSize(35, 35))
         self.pushButton_2.setObjectName("pushButton_2")

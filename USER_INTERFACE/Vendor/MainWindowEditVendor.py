@@ -1,4 +1,4 @@
-# Form implementation generated from reading ui file 'C:\Users\Nicolee\Coding\Final_KTLT\USER_INTERFACE\MainWindowAddAmin.ui'
+# Form implementation generated from reading ui file 'D:\code hk2\Final_KTLT\USER_INTERFACE\Vendor\MainWindowEditVendor.ui'
 #
 # Created by: PyQt6 UI code generator 6.7.1
 #
@@ -56,14 +56,14 @@ class Ui_MainWindowAddAdmin(object):
 "font: 57 12pt \"Montserrat Medium\";")
         self.label_6.setObjectName("label_6")
         self.formLayout.setWidget(4, QtWidgets.QFormLayout.ItemRole.LabelRole, self.label_6)
-        self.lineEditStaffID = QtWidgets.QLineEdit(parent=self.formLayoutWidget)
-        self.lineEditStaffID.setStyleSheet("background-color: rgb(242, 248, 255);\n"
+        self.lineEditVendorID = QtWidgets.QLineEdit(parent=self.formLayoutWidget)
+        self.lineEditVendorID.setStyleSheet("background-color: rgb(242, 248, 255);\n"
 "color: rgb(14, 23, 67);\n"
 "font: 57 12pt \"Montserrat Medium\";\n"
 "padding: 10px;")
-        self.lineEditStaffID.setFrame(False)
-        self.lineEditStaffID.setObjectName("lineEditStaffID")
-        self.formLayout.setWidget(0, QtWidgets.QFormLayout.ItemRole.FieldRole, self.lineEditStaffID)
+        self.lineEditVendorID.setFrame(False)
+        self.lineEditVendorID.setObjectName("lineEditVendorID")
+        self.formLayout.setWidget(0, QtWidgets.QFormLayout.ItemRole.FieldRole, self.lineEditVendorID)
         self.lineEditName = QtWidgets.QLineEdit(parent=self.formLayoutWidget)
         self.lineEditName.setStyleSheet("background-color: rgb(242, 248, 255);\n"
 "color: rgb(14, 23, 67);\n"
@@ -71,13 +71,13 @@ class Ui_MainWindowAddAdmin(object):
 "padding: 10px;")
         self.lineEditName.setObjectName("lineEditName")
         self.formLayout.setWidget(1, QtWidgets.QFormLayout.ItemRole.FieldRole, self.lineEditName)
-        self.lineEditPosition = QtWidgets.QLineEdit(parent=self.formLayoutWidget)
-        self.lineEditPosition.setStyleSheet("background-color: rgb(242, 248, 255);\n"
+        self.lineEditAddress = QtWidgets.QLineEdit(parent=self.formLayoutWidget)
+        self.lineEditAddress.setStyleSheet("background-color: rgb(242, 248, 255);\n"
 "color: rgb(14, 23, 67);\n"
 "font: 57 12pt \"Montserrat Medium\";\n"
 "padding: 10px;")
-        self.lineEditPosition.setObjectName("lineEditPosition")
-        self.formLayout.setWidget(2, QtWidgets.QFormLayout.ItemRole.FieldRole, self.lineEditPosition)
+        self.lineEditAddress.setObjectName("lineEditAddress")
+        self.formLayout.setWidget(2, QtWidgets.QFormLayout.ItemRole.FieldRole, self.lineEditAddress)
         self.lineEditPhone = QtWidgets.QLineEdit(parent=self.formLayoutWidget)
         self.lineEditPhone.setStyleSheet("background-color: rgb(242, 248, 255);\n"
 "color: rgb(14, 23, 67);\n"
@@ -148,7 +148,7 @@ class Ui_MainWindowAddAdmin(object):
 "\n"
 "")
         icon = QtGui.QIcon()
-        icon.addPixmap(QtGui.QPixmap("C:\\Users\\Nicolee\\Coding\\Final_KTLT\\USER_INTERFACE\\../RESOURCE/1.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
+        icon.addPixmap(QtGui.QPixmap("D:\\code hk2\\Final_KTLT\\USER_INTERFACE\\Vendor\\../../RESOURCE/ICON/1.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
         self.pushButtonSave.setIcon(icon)
         self.pushButtonSave.setIconSize(QtCore.QSize(30, 30))
         self.pushButtonSave.setObjectName("pushButtonSave")
@@ -180,7 +180,7 @@ class Ui_MainWindowAddAdmin(object):
 "}\n"
 "")
         icon1 = QtGui.QIcon()
-        icon1.addPixmap(QtGui.QPixmap("C:\\Users\\Nicolee\\Coding\\Final_KTLT\\USER_INTERFACE\\../RESOURCE/cancel.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
+        icon1.addPixmap(QtGui.QPixmap("D:\\code hk2\\Final_KTLT\\USER_INTERFACE\\Vendor\\../../RESOURCE/ICON/cancel.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
         self.pushButtonCancel.setIcon(icon1)
         self.pushButtonCancel.setIconSize(QtCore.QSize(30, 30))
         self.pushButtonCancel.setObjectName("pushButtonCancel")
@@ -204,12 +204,12 @@ class Ui_MainWindowAddAdmin(object):
     def retranslateUi(self, MainWindowAddAdmin):
         _translate = QtCore.QCoreApplication.translate
         MainWindowAddAdmin.setWindowTitle(_translate("MainWindowAddAdmin", "Add new admin"))
-        self.label_2.setText(_translate("MainWindowAddAdmin", "Staff_id:"))
+        self.label_2.setText(_translate("MainWindowAddAdmin", "Vendor_id:"))
         self.label_3.setText(_translate("MainWindowAddAdmin", "Name:"))
-        self.label_4.setText(_translate("MainWindowAddAdmin", "Position:"))
+        self.label_4.setText(_translate("MainWindowAddAdmin", "Address:"))
         self.label_5.setText(_translate("MainWindowAddAdmin", "Phone:"))
         self.label_6.setText(_translate("MainWindowAddAdmin", "Email:"))
-        self.label.setText(_translate("MainWindowAddAdmin", "<html><head/><body><p align=\"center\"><span style=\" font-size:18pt;\">Add new admin</span></p></body></html>"))
+        self.label.setText(_translate("MainWindowAddAdmin", "<html><head/><body><p align=\"center\"><span style=\" font-size:18pt;\">Edit vendor\'s information</span></p></body></html>"))
         self.pushButtonSave.setToolTip(_translate("MainWindowAddAdmin", "<html><head/><body><p><span style=\" font-size:12pt; color:#ff2090;\">New</span></p></body></html>"))
         self.pushButtonSave.setText(_translate("MainWindowAddAdmin", " Save"))
         self.pushButtonCancel.setToolTip(_translate("MainWindowAddAdmin", "<html><head/><body><p><span style=\" font-size:12pt; color:#35b6e8;\">Edit</span></p></body></html>"))
