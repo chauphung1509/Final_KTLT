@@ -1,4 +1,6 @@
-from USER_INTERFACE.MainWindowProduct import Ui_MainWindowProduct
+from PyQt6.QtWidgets import QMainWindow
+
+from USER_INTERFACE.Product.MainWindowProduct import Ui_MainWindowProduct
 
 
 class MainWindowProductExt(QMainWindow, Ui_MainWindowProduct):
