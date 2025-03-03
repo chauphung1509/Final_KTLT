@@ -833,19 +833,13 @@ background-color: rgb(255, 255, 255);</string>
    <widget class="QWidget" name="formLayoutWidget">
     <property name="geometry">
      <rect>
-      <x>903</x>
+      <x>891</x>
       <y>48</y>
-      <width>445</width>
+      <width>457</width>
       <height>85</height>
      </rect>
     </property>
     <layout class="QFormLayout" name="formLayout">
-     <property name="horizontalSpacing">
-      <number>16</number>
-     </property>
-     <property name="verticalSpacing">
-      <number>9</number>
-     </property>
      <item row="1" column="0">
       <widget class="QLabel" name="label_7">
        <property name="styleSheet">

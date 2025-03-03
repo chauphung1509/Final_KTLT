@@ -836,7 +836,7 @@ background-color: rgb(255, 255, 255);</string>
       <x>891</x>
       <y>36</y>
       <width>457</width>
-      <height>97</height>
+      <height>116</height>
      </rect>
     </property>
     <layout class="QFormLayout" name="formLayout">
@@ -906,9 +906,9 @@ font: 57 12pt &quot;Montserrat Medium&quot;;</string>
     <property name="geometry">
      <rect>
       <x>888</x>
-      <y>144</y>
-      <width>457</width>
-      <height>493</height>
+      <y>156</y>
+      <width>461</width>
+      <height>481</height>
      </rect>
     </property>
     <property name="toolTip">
@@ -948,7 +948,7 @@ font: 57 10pt &quot;Montserrat Medium&quot;;
      <rect>
       <x>888</x>
       <y>648</y>
-      <width>457</width>
+      <width>461</width>
       <height>61</height>
      </rect>
     </property>
@@ -1046,7 +1046,7 @@ QPushButton:focus {
      <rect>
       <x>888</x>
       <y>720</y>
-      <width>457</width>
+      <width>461</width>
       <height>80</height>
      </rect>
     </property>
