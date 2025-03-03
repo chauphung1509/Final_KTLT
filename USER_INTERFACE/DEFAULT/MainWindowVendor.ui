@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>MainWindow</class>
- <widget class="QMainWindow" name="MainWindow">
+ <class>MainWindowVendor</class>
+ <widget class="QMainWindow" name="MainWindowVendor">
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -20,7 +20,7 @@
    <enum>Qt::NoFocus</enum>
   </property>
   <property name="windowTitle">
-   <string>Admin</string>
+   <string>Vendor</string>
   </property>
   <property name="autoFillBackground">
    <bool>false</bool>
@@ -63,6 +63,44 @@ background-color: rgb(255, 255, 255);</string>
       <number>7</number>
      </property>
      <item>
+      <widget class="QPushButton" name="pushButtonProduct_2">
+       <property name="maximumSize">
+        <size>
+         <width>16777215</width>
+         <height>60</height>
+        </size>
+       </property>
+       <property name="toolTipDuration">
+        <number>-1</number>
+       </property>
+       <property name="layoutDirection">
+        <enum>Qt::LeftToRight</enum>
+       </property>
+       <property name="autoFillBackground">
+        <bool>false</bool>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 63 12pt &quot;Montserrat SemiBold&quot;;
+background-color: rgb(255, 255, 255);
+border: 1px solid #9b9fa2;
+color: rgb(155, 159, 162);</string>
+       </property>
+       <property name="text">
+        <string>  Product</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../../RESOURCE/ICON/album2.png</normaloff>../../RESOURCE/ICON/album2.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>32</width>
+         <height>32</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item>
       <widget class="QPushButton" name="pushButtonAdmin">
        <property name="maximumSize">
         <size>
@@ -80,18 +118,17 @@ background-color: rgb(255, 255, 255);</string>
         <bool>false</bool>
        </property>
        <property name="styleSheet">
-        <string notr="true">color: rgb(14, 23, 67);
-font: 63 12pt &quot;Montserrat SemiBold&quot;;
+        <string notr="true">font: 63 12pt &quot;Montserrat SemiBold&quot;;
 background-color: rgb(255, 255, 255);
 border: 1px solid #9b9fa2;
-</string>
+color: rgb(155, 159, 162);</string>
        </property>
        <property name="text">
         <string>  Admin</string>
        </property>
        <property name="icon">
         <iconset>
-         <normaloff>../RESOURCE/ICON/adm.png</normaloff>../RESOURCE/ICON/adm.png</iconset>
+         <normaloff>../../RESOURCE/ICON/adm2.png</normaloff>../../RESOURCE/ICON/adm2.png</iconset>
        </property>
        <property name="iconSize">
         <size>
@@ -120,16 +157,15 @@ border: 1px solid #9b9fa2;
        </property>
        <property name="styleSheet">
         <string notr="true">font: 63 12pt &quot;Montserrat SemiBold&quot;;
-background-color: rgb(255, 255, 255);
-border: 1px solid #9b9fa2;
-color: rgb(155, 159, 162);</string>
+color: rgb(14, 23, 67);
+background-color: rgb(242, 248, 255)</string>
        </property>
        <property name="text">
         <string>  Vendor</string>
        </property>
        <property name="icon">
         <iconset>
-         <normaloff>../RESOURCE/ICON/vendor1.png</normaloff>../RESOURCE/ICON/vendor1.png</iconset>
+         <normaloff>../../RESOURCE/ICON/vendor2.png</normaloff>../../RESOURCE/ICON/vendor2.png</iconset>
        </property>
        <property name="iconSize">
         <size>
@@ -170,7 +206,7 @@ color: rgb(155, 159, 162);</string>
        </property>
        <property name="icon">
         <iconset>
-         <normaloff>../RESOURCE/ICON/import.png</normaloff>../RESOURCE/ICON/import.png</iconset>
+         <normaloff>../../RESOURCE/ICON/import.png</normaloff>../../RESOURCE/ICON/import.png</iconset>
        </property>
        <property name="iconSize">
         <size>
@@ -211,7 +247,7 @@ color: rgb(155, 159, 162);</string>
        </property>
        <property name="icon">
         <iconset>
-         <normaloff>../RESOURCE/ICON/doc.png</normaloff>../RESOURCE/ICON/doc.png</iconset>
+         <normaloff>../../RESOURCE/ICON/doc.png</normaloff>../../RESOURCE/ICON/doc.png</iconset>
        </property>
        <property name="iconSize">
         <size>
@@ -252,7 +288,7 @@ color: rgb(155, 159, 162);</string>
        </property>
        <property name="icon">
         <iconset>
-         <normaloff>../RESOURCE/ICON/export.png</normaloff>../RESOURCE/ICON/export.png</iconset>
+         <normaloff>../../RESOURCE/ICON/export.png</normaloff>../../RESOURCE/ICON/export.png</iconset>
        </property>
        <property name="iconSize">
         <size>
@@ -293,7 +329,7 @@ color: rgb(155, 159, 162);</string>
        </property>
        <property name="icon">
         <iconset>
-         <normaloff>../RESOURCE/ICON/doc.png</normaloff>../RESOURCE/ICON/doc.png</iconset>
+         <normaloff>../../RESOURCE/ICON/doc.png</normaloff>../../RESOURCE/ICON/doc.png</iconset>
        </property>
        <property name="iconSize">
         <size>
@@ -334,7 +370,7 @@ color: rgb(155, 159, 162);</string>
        </property>
        <property name="icon">
         <iconset>
-         <normaloff>../RESOURCE/ICON/inventory.png</normaloff>../RESOURCE/ICON/inventory.png</iconset>
+         <normaloff>../../RESOURCE/ICON/inventory.png</normaloff>../../RESOURCE/ICON/inventory.png</iconset>
        </property>
        <property name="iconSize">
         <size>
@@ -375,7 +411,7 @@ color: rgb(155, 159, 162);</string>
        </property>
        <property name="icon">
         <iconset>
-         <normaloff>../RESOURCE/ICON/statis.png</normaloff>../RESOURCE/ICON/statis.png</iconset>
+         <normaloff>../../RESOURCE/ICON/statis.png</normaloff>../../RESOURCE/ICON/statis.png</iconset>
        </property>
        <property name="iconSize">
         <size>
@@ -460,7 +496,7 @@ QPushButton:focus {
         </property>
         <property name="icon">
          <iconset>
-          <normaloff>../RESOURCE/ICON/new.png</normaloff>../RESOURCE/ICON/new.png</iconset>
+          <normaloff>../../RESOURCE/ICON/new.png</normaloff>../../RESOURCE/ICON/new.png</iconset>
         </property>
         <property name="iconSize">
          <size>
@@ -509,7 +545,7 @@ QPushButton:focus {
         </property>
         <property name="icon">
          <iconset>
-          <normaloff>../RESOURCE/ICON/edit.png</normaloff>../RESOURCE/ICON/edit.png</iconset>
+          <normaloff>../../RESOURCE/ICON/edit.png</normaloff>../../RESOURCE/ICON/edit.png</iconset>
         </property>
         <property name="iconSize">
          <size>
@@ -558,7 +594,7 @@ QPushButton:focus {
         </property>
         <property name="icon">
          <iconset>
-          <normaloff>../RESOURCE/ICON/delete.png</normaloff>../RESOURCE/ICON/delete.png</iconset>
+          <normaloff>../../RESOURCE/ICON/delete.png</normaloff>../../RESOURCE/ICON/delete.png</iconset>
         </property>
         <property name="iconSize">
          <size>
@@ -628,7 +664,7 @@ QPushButton:focus {
      </property>
      <property name="icon">
       <iconset>
-       <normaloff>../RESOURCE/ICON/exc.png</normaloff>../RESOURCE/ICON/exc.png</iconset>
+       <normaloff>../../RESOURCE/ICON/exc.png</normaloff>../../RESOURCE/ICON/exc.png</iconset>
      </property>
      <property name="iconSize">
       <size>
@@ -644,7 +680,7 @@ QPushButton:focus {
       <x>0</x>
       <y>-12</y>
       <width>1393</width>
-      <height>817</height>
+      <height>841</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -737,7 +773,7 @@ QPushButton:focus {
      </property>
      <property name="icon">
       <iconset>
-       <normaloff>../RESOURCE/ICON/search.png</normaloff>../RESOURCE/ICON/search.png</iconset>
+       <normaloff>../../RESOURCE/ICON/search.png</normaloff>../../RESOURCE/ICON/search.png</iconset>
      </property>
      <property name="iconSize">
       <size>
@@ -777,17 +813,12 @@ padding: 10px;</string>
      </item>
      <item>
       <property name="text">
-       <string>ID</string>
+       <string>Vendor ID</string>
       </property>
      </item>
      <item>
       <property name="text">
-       <string>Name</string>
-      </property>
-     </item>
-     <item>
-      <property name="text">
-       <string>Position</string>
+       <string>Name </string>
       </property>
      </item>
     </widget>
@@ -813,7 +844,7 @@ font: 57 10pt &quot;Montserrat Medium&quot;;</string>
     </property>
     <column>
      <property name="text">
-      <string>ID</string>
+      <string>Vendor ID</string>
      </property>
     </column>
     <column>
@@ -823,7 +854,7 @@ font: 57 10pt &quot;Montserrat Medium&quot;;</string>
     </column>
     <column>
      <property name="text">
-      <string>Position</string>
+      <string>Address</string>
      </property>
     </column>
     <column>
@@ -915,7 +946,7 @@ QPushButton:focus {
     </property>
     <property name="icon">
      <iconset>
-      <normaloff>../RESOURCE/ICON/turnoff.png</normaloff>../RESOURCE/ICON/turnoff.png</iconset>
+      <normaloff>../../RESOURCE/ICON/turnoff.png</normaloff>../../RESOURCE/ICON/turnoff.png</iconset>
     </property>
     <property name="iconSize">
      <size>

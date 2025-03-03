@@ -1,5 +1,5 @@
 from PyQt6.QtWidgets import QMainWindow
-from USER_INTERFACE.MainWindowVendor import Ui_MainWindowVendor
+from USER_INTERFACE.DEFAULT.MainWindowVendor import Ui_MainWindowVendor
 
 class MainWindowVendorExt(QMainWindow, Ui_MainWindowVendor):
     def __init__(self, parent=None):  # Nhận parent để quay lại

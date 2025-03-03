@@ -1,7 +1,7 @@
 from PyQt6.QtWidgets import QMainWindow
 
 from USER_INTERFACE.MainWindowAddAdminExt import MainWindowAddAdminExt
-from USER_INTERFACE.MainWindowAdmin import Ui_MainWindow
+from USER_INTERFACE.DEFAULT.MainWindowAdmin import Ui_MainWindow
 from USER_INTERFACE.MainWindowVendorExt import MainWindowVendorExt
 
 class MainWindowAdminExt(QMainWindow, Ui_MainWindow):
@@ -9,23 +9,18 @@ class MainWindowAdminExt(QMainWindow, Ui_MainWindow):
         super().__init__()
         self.setupUi(self)
         self.setupSignalAndSlot()
-
-        self.vendor_window = None  # Khởi tạo biến để lưu cửa sổ Vendor
-
     def setupSignalAndSlot(self):
         self.pushButtonVendor.clicked.connect(self.openVendor)
         self.pushButtonNew.clicked.connect(self.openAddNew)
-
+        # Kết nối sự kiện khi nhấn nút "pushButtonVendor"
+        self.pushButtonVendor.clicked.connect(self.openVendor)
     def openAddNew(self):
-        self.add_window = MainWindowAddAdminExt()
+        self.add_window = MainWindowAddAdminExt()  # Tạo cửa sổ Vendor
         self.add_window.show()
-
     def openVendor(self):
-        if self.vendor_window is None:  # Kiểm tra nếu cửa sổ Vendor chưa được tạo
-            self.vendor_window = MainWindowVendorExt(self)  # Truyền self để có thể quay lại
-
-        self.hide()  # Ẩn cửa sổ hiện tại thay vì đóng
+        self.vendor_window = MainWindowVendorExt()  # Tạo cửa sổ Vendor
         self.vendor_window.show()  # Hiển thị cửa sổ Vendor
+        self.close()  # Đóng cửa sổ hiện tại (Admin)
 
     def showWindow(self):
         self.show()  # Hiển thị cửa sổ Admin
