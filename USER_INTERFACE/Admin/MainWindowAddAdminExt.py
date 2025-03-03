@@ -34,5 +34,6 @@ class MainWindowAddAdminExt(QMainWindow, Ui_MainWindowAddAdmin):
 
     def process_cancel(self):
         self.close()
+
     def showWindow(self):
         self.show()  # Hiển thị cửa sổ

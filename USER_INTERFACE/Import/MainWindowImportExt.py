@@ -2,17 +2,17 @@ from PyQt6.QtWidgets import QMainWindow
 
 from USER_INTERFACE.Admin.MainWindowAddAdminExt import MainWindowAddAdminExt
 from USER_INTERFACE.Admin.MainWindowAdmin import Ui_MainWindow
-from USER_INTERFACE.Import.MainWindowImportExt import MainWindowImportExt
+from USER_INTERFACE.Admin.MainWindowAdminExt import MainWindowAdminExt
+from USER_INTERFACE.Import.MainWindowImport import Ui_MainWindowImport
 from USER_INTERFACE.Product.MainWindowProductExt import MainWindowProductExt
 from USER_INTERFACE.Vendor.MainWindowVendorExt import MainWindowVendorExt
 
-class MainWindowAdminExt(QMainWindow, Ui_MainWindow):
+class MainWindowImportExt(QMainWindow, Ui_MainWindowImport):
     def __init__(self):
         super().__init__()
         self.setupUi(self)
         self.setupSignalAndSlot()
     def setupSignalAndSlot(self):
-        self.pushButtonNew.clicked.connect(self.openAddNew)
         # Kết nối sự kiện khi nhấn nút "pushButtonVendor"
         self.pushButtonVendor.clicked.connect(self.openVendor)
         self.pushButtonProduct.clicked.connect(self.openProduct)
