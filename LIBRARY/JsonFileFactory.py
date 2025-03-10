@@ -2,6 +2,7 @@ import json
 import os
 class JsonFileFactory:
     def write_data(self,arr_data,filename):
+        #met
         """
         Hàm này dùng để parse object thành jsonstring
         :param arr_data: mảng đối tượng
