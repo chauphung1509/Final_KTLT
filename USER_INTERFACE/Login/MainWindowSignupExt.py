@@ -42,12 +42,13 @@ class MainWindowSignupExt(Ui_Signup):
         self.lineEditPasswordagain.clear()
         self.lineEditStaffID.setFocus()
 
-    '''def process_cancel(self):
+    def process_cancel(self):
+        from USER_INTERFACE.Login.MainWindowLoginExt import MainWindowLoginExt
         self.MainWindow.close()
         self.mainwindow = QMainWindow()
         self.myui = MainWindowLoginExt()
         self.myui.setupUi(self.mainwindow)
-        self.myui.showWindow()'''
+        self.myui.showWindow()
 
     '''def process_cancel(self):
         # Đóng cửa sổ hiện tại và gọi phương thức để hiển thị lại cửa sổ đăng nhập
