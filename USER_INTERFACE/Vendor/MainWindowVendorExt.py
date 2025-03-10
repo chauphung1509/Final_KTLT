@@ -1,5 +1,6 @@
 from PyQt6.QtWidgets import QMainWindow, QTableWidgetItem
 
+from LIBRARY.DataConnector import DataConnector
 from MODELS.Vendor import Vendor
 from USER_INTERFACE.Vendor.MainWindowAddVendorExt import MainWindowAddVendorExt
 from USER_INTERFACE.Vendor.MainWindowEditVendorExt import MainWindowEditVendorExt
@@ -7,12 +8,13 @@ from USER_INTERFACE.Vendor.MainWindowVendor import Ui_MainWindowVendor
 
 class MainWindowVendorExt(QMainWindow, Ui_MainWindowVendor):
     def __init__(self, parent=None):  # Nhận parent để quay lại
-        self.vendors=[]
+        self.dc=DataConnector()
+        self.vendors=self.dc.get_all_vendors()
+        self.selected_vendor = -1
         super().__init__()
         self.setupUi(self)
         self.parent_window = parent  # Lưu tham chiếu đến cửa sổ Admin
         self.setupSignalAndSlot()
-        self.selected_vendor=-1
         self.show_vendors_on_gui()
 
     def setupSignalAndSlot(self):
@@ -47,23 +49,21 @@ class MainWindowVendorExt(QMainWindow, Ui_MainWindowVendor):
             self.tableWidget.setItem(row, 3, col_phone)
             self.tableWidget.setItem(row, 4, col_email)
     def process_Delete(self):# khong chay duoc vao day duoc
-        index=self.selected_vendor
-        if index<0 or index>len(self.vendors):
-            return
-        #Qmessagebox:
 
-        print(f"{self.vendors[index]}")
-        # Remove the vendor from the list
+        index = self.selected_vendor
+        if index < 0 or index >= len(self.vendors):
+            return  # Nếu chưa chọn hoặc chỉ số không hợp lệ, thoát hàm
+        print(f"Xoá vendor: {self.vendors[index]}")
+        # Xóa vendor khỏi danh sách
         self.vendors.pop(index)
-        for i in self.vendors:
-            print(i)
-        # Refresh the table to show updated vendor list
+        # Cập nhật lại table widget
         self.show_vendors_on_gui()
     def process_selected_vendor(self):
         index=self.tableWidget.currentRow()
         if index<0:
             return
         self.selected_vendor=index
+        print(f"{self.selected_vendor}")
     def process_find(self):
         if self.comboBox.text()=="All":
             #load het tat ca kia:

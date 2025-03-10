@@ -1,6 +1,8 @@
 import pandas as pd
 
+from LIBRARY.JsonFileFactory import JsonFileFactory
 from MODELS.Admin import Staff
+from MODELS.Vendor import Vendor
 
 
 class DataConnector:
@@ -24,3 +26,9 @@ class DataConnector:
             return False
 
 #ê nha nó đang hơi lộn xộn
+    def get_all_vendors(self):
+        jff=JsonFileFactory()
+        filename="../testModel/vendors.json"
+        vendors=jff.read_data(filename,Vendor)
+        return vendors
+    

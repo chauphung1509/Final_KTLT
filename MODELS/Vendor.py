@@ -1,11 +1,14 @@
 class Vendor:
-    def __init__(self, vendor_number, name, address, contact_number, email):
+    def __init__(self, vendor_number, name, address, contact_number, email,albums=None):
         self.vendor_number = vendor_number
         self.name = name
         self.address = address
         self.contact_number = contact_number
         self.email = email
-        self.albums = []  # Danh sách album mà vendor cung cấp
+        if albums == None:
+            self.albums = []
+        else:
+            self.albums = albums
 
     def add_album(self, album):
         self.albums.append(album)
