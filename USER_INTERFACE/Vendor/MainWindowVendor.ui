@@ -90,7 +90,7 @@ color: rgb(155, 159, 162);</string>
        </property>
        <property name="icon">
         <iconset>
-         <normaloff>../../RESOURCE/ICON/album2.png</normaloff>../../RESOURCE/ICON/album2.png</iconset>
+         <normaloff>C:/Users/admin/RESOURCE/ICON/album2.png</normaloff>C:/Users/admin/RESOURCE/ICON/album2.png</iconset>
        </property>
        <property name="iconSize">
         <size>
@@ -128,7 +128,7 @@ color: rgb(155, 159, 162);</string>
        </property>
        <property name="icon">
         <iconset>
-         <normaloff>../../RESOURCE/ICON/adm2.png</normaloff>../../RESOURCE/ICON/adm2.png</iconset>
+         <normaloff>C:/Users/admin/RESOURCE/ICON/adm2.png</normaloff>C:/Users/admin/RESOURCE/ICON/adm2.png</iconset>
        </property>
        <property name="iconSize">
         <size>
@@ -165,7 +165,7 @@ background-color: rgb(242, 248, 255)</string>
        </property>
        <property name="icon">
         <iconset>
-         <normaloff>../../RESOURCE/ICON/vendor2.png</normaloff>../../RESOURCE/ICON/vendor2.png</iconset>
+         <normaloff>C:/Users/admin/RESOURCE/ICON/vendor2.png</normaloff>C:/Users/admin/RESOURCE/ICON/vendor2.png</iconset>
        </property>
        <property name="iconSize">
         <size>
@@ -206,7 +206,7 @@ color: rgb(155, 159, 162);</string>
        </property>
        <property name="icon">
         <iconset>
-         <normaloff>../../RESOURCE/ICON/import.png</normaloff>../../RESOURCE/ICON/import.png</iconset>
+         <normaloff>C:/Users/admin/RESOURCE/ICON/import.png</normaloff>C:/Users/admin/RESOURCE/ICON/import.png</iconset>
        </property>
        <property name="iconSize">
         <size>
@@ -247,7 +247,7 @@ color: rgb(155, 159, 162);</string>
        </property>
        <property name="icon">
         <iconset>
-         <normaloff>../../RESOURCE/ICON/doc.png</normaloff>../../RESOURCE/ICON/doc.png</iconset>
+         <normaloff>C:/Users/admin/RESOURCE/ICON/doc.png</normaloff>C:/Users/admin/RESOURCE/ICON/doc.png</iconset>
        </property>
        <property name="iconSize">
         <size>
@@ -288,7 +288,7 @@ color: rgb(155, 159, 162);</string>
        </property>
        <property name="icon">
         <iconset>
-         <normaloff>../../RESOURCE/ICON/export.png</normaloff>../../RESOURCE/ICON/export.png</iconset>
+         <normaloff>C:/Users/admin/RESOURCE/ICON/export.png</normaloff>C:/Users/admin/RESOURCE/ICON/export.png</iconset>
        </property>
        <property name="iconSize">
         <size>
@@ -329,7 +329,7 @@ color: rgb(155, 159, 162);</string>
        </property>
        <property name="icon">
         <iconset>
-         <normaloff>../../RESOURCE/ICON/doc.png</normaloff>../../RESOURCE/ICON/doc.png</iconset>
+         <normaloff>C:/Users/admin/RESOURCE/ICON/doc.png</normaloff>C:/Users/admin/RESOURCE/ICON/doc.png</iconset>
        </property>
        <property name="iconSize">
         <size>
@@ -370,7 +370,7 @@ color: rgb(155, 159, 162);</string>
        </property>
        <property name="icon">
         <iconset>
-         <normaloff>../../RESOURCE/ICON/inventory.png</normaloff>../../RESOURCE/ICON/inventory.png</iconset>
+         <normaloff>C:/Users/admin/RESOURCE/ICON/inventory.png</normaloff>C:/Users/admin/RESOURCE/ICON/inventory.png</iconset>
        </property>
        <property name="iconSize">
         <size>
@@ -411,7 +411,7 @@ color: rgb(155, 159, 162);</string>
        </property>
        <property name="icon">
         <iconset>
-         <normaloff>../../RESOURCE/ICON/statis.png</normaloff>../../RESOURCE/ICON/statis.png</iconset>
+         <normaloff>C:/Users/admin/RESOURCE/ICON/statis.png</normaloff>C:/Users/admin/RESOURCE/ICON/statis.png</iconset>
        </property>
        <property name="iconSize">
         <size>
@@ -496,7 +496,7 @@ QPushButton:focus {
         </property>
         <property name="icon">
          <iconset>
-          <normaloff>../../RESOURCE/ICON/new.png</normaloff>../../RESOURCE/ICON/new.png</iconset>
+          <normaloff>C:/Users/admin/RESOURCE/ICON/new.png</normaloff>C:/Users/admin/RESOURCE/ICON/new.png</iconset>
         </property>
         <property name="iconSize">
          <size>
@@ -545,7 +545,7 @@ QPushButton:focus {
         </property>
         <property name="icon">
          <iconset>
-          <normaloff>../../RESOURCE/ICON/edit.png</normaloff>../../RESOURCE/ICON/edit.png</iconset>
+          <normaloff>C:/Users/admin/RESOURCE/ICON/edit.png</normaloff>C:/Users/admin/RESOURCE/ICON/edit.png</iconset>
         </property>
         <property name="iconSize">
          <size>
@@ -594,7 +594,7 @@ QPushButton:focus {
         </property>
         <property name="icon">
          <iconset>
-          <normaloff>../../RESOURCE/ICON/delete.png</normaloff>../../RESOURCE/ICON/delete.png</iconset>
+          <normaloff>C:/Users/admin/RESOURCE/ICON/delete.png</normaloff>C:/Users/admin/RESOURCE/ICON/delete.png</iconset>
         </property>
         <property name="iconSize">
          <size>
@@ -664,7 +664,7 @@ QPushButton:focus {
      </property>
      <property name="icon">
       <iconset>
-       <normaloff>../../RESOURCE/ICON/exc.png</normaloff>../../RESOURCE/ICON/exc.png</iconset>
+       <normaloff>C:/Users/admin/RESOURCE/ICON/exc.png</normaloff>C:/Users/admin/RESOURCE/ICON/exc.png</iconset>
      </property>
      <property name="iconSize">
       <size>
@@ -773,7 +773,7 @@ QPushButton:focus {
      </property>
      <property name="icon">
       <iconset>
-       <normaloff>../../RESOURCE/ICON/search.png</normaloff>../../RESOURCE/ICON/search.png</iconset>
+       <normaloff>C:/Users/admin/RESOURCE/ICON/search.png</normaloff>C:/Users/admin/RESOURCE/ICON/search.png</iconset>
      </property>
      <property name="iconSize">
       <size>
@@ -946,7 +946,7 @@ QPushButton:focus {
     </property>
     <property name="icon">
      <iconset>
-      <normaloff>../../RESOURCE/ICON/turnoff.png</normaloff>../../RESOURCE/ICON/turnoff.png</iconset>
+      <normaloff>C:/Users/admin/RESOURCE/ICON/turnoff.png</normaloff>C:/Users/admin/RESOURCE/ICON/turnoff.png</iconset>
     </property>
     <property name="iconSize">
      <size>
