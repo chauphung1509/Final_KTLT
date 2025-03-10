@@ -10,7 +10,7 @@ class MainWindowVendorExt(QMainWindow, Ui_MainWindowVendor):
     def __init__(self, parent=None):  # Nhận parent để quay lại
         self.dc=DataConnector()
         self.vendors=self.dc.get_all_vendors()
-        self.selected_vendor = -1
+        self.selected_vendor = None
         super().__init__()
         self.setupUi(self)
         self.parent_window = parent  # Lưu tham chiếu đến cửa sổ Admin
@@ -18,10 +18,11 @@ class MainWindowVendorExt(QMainWindow, Ui_MainWindowVendor):
         self.show_vendors_on_gui()
 
     def setupSignalAndSlot(self):
+#        self.tableWidget.setSelectionBehavior(QAbstractItemView.SelectionBehavior.SelectRows)
         self.pushButtonNew.clicked.connect(self.openNew)
         self.pushButtonEdit.clicked.connect(self.openEdit)
         self.pushButtonDelete.clicked.connect(self.process_Delete) #cho 1 function delete
-        self.tableWidget.itemSelectionChanged.connect(self.process_selected_vendor) #cho 1 function delete
+#        self.tableWidget.itemSelectionChanged.connect(self.process_selected_vendor) #cho 1 function delete
         self.pushButton.clicked.connect(self.process_find)
     def showWindow(self):
         self.show()  # Hiển thị cửa sổ Vendor
@@ -49,8 +50,9 @@ class MainWindowVendorExt(QMainWindow, Ui_MainWindowVendor):
             self.tableWidget.setItem(row, 3, col_phone)
             self.tableWidget.setItem(row, 4, col_email)
     def process_Delete(self):# khong chay duoc vao day duoc
-
-        index = self.selected_vendor
+        print("aaaa")
+#        index = self.selected_vendor
+        index=self.tableWidget.currentRow()
         if index < 0 or index >= len(self.vendors):
             return  # Nếu chưa chọn hoặc chỉ số không hợp lệ, thoát hàm
         print(f"Xoá vendor: {self.vendors[index]}")
@@ -58,12 +60,12 @@ class MainWindowVendorExt(QMainWindow, Ui_MainWindowVendor):
         self.vendors.pop(index)
         # Cập nhật lại table widget
         self.show_vendors_on_gui()
-    def process_selected_vendor(self):
+        ''' def process_selected_vendor(self):
+        print("aaa")
         index=self.tableWidget.currentRow()
-        if index<0:
-            return
-        self.selected_vendor=index
-        print(f"{self.selected_vendor}")
+        self.selected_vendor=self.vendors[index]
+        #self.selected_vendor=index
+        print(f"{self.selected_vendor}")'''
     def process_find(self):
         if self.comboBox.text()=="All":
             #load het tat ca kia:

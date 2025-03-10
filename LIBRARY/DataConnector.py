@@ -28,7 +28,6 @@ class DataConnector:
 #ê nha nó đang hơi lộn xộn
     def get_all_vendors(self):
         jff=JsonFileFactory()
-        filename="../testModel/vendors.json"
+        filename="../Dataset/vendors.json"
         vendors=jff.read_data(filename,Vendor)
         return vendors
-    

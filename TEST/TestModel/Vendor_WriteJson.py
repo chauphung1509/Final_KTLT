@@ -8,5 +8,5 @@ v3=Vendor("V3","Vendor 3","Address 3","098372482","vendor3@gmail.com")
 v=[v1,v2,v3]
 vendors.extend(v)
 jff=JsonFileFactory()
-file_path = '../testModel/vendors.json'
+file_path = '../Dataset/vendors.json'
 jff.write_data(vendors,file_path)
